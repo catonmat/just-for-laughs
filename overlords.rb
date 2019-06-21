@@ -3,7 +3,7 @@ puts "Please enter a number:"
 N = gets.chomp.to_i || 600851475143
 n = N
 
-# 1) While n is divisible by 2, print 2 and divide n by 2.
+# 1) While n is divisible by 2, print 2 and divide n by 2
 puts 'Removing even numbers...'
 while n % 2 == 0
   n = n / 2
@@ -30,7 +30,7 @@ arr = []
     puts 'Checking to see if N is greater than 2...'
     puts "Yes! and it is: #{i}" if n > 2
   end
-  if n < 2 || i == Math.sqrt(N).to_i
+  if n < 2 || i == Math.sqrt(N).to_i || n == i
     arr << n
     arr << i
   end
