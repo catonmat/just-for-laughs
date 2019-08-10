@@ -11,7 +11,7 @@ while n % 2 == 0
 end
 
 puts "Looping through odds between 3 to sqrt(#{n}) = #{Math.sqrt(n).to_i}..."
-#2 After step 1, n must be odd. Now start a loop from i = 3 to square root of n. While i divides n, print i and divide n by i, increment i by 2 and continue.
+#2 After step 1 n must be odd. Now start a loop from i = 3 to square root of n. While i divides n, print i and divide n by i, increment i by 2 and continue.
 # Identify the least prime factor of N: Build a range between 3 and the sqrt(N). Divide out thise prime factor from N in the while loop -- rinse and repeat until N is a prime, or until you hit 0.
 arr = []
 
